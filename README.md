@@ -73,6 +73,8 @@ Basic Math
 - Are case sensitive
 - Special characters, such as *, -, +, ~, ., ^, and so on, are not used in variable names because they have a special meaning in shell
 
+Creating the following file
+
 ```bash
 #! /bin/bash
 # Filename: variables.sh
