@@ -66,3 +66,31 @@ Basic Math
 27      div     4       =	6.75
 ```
 
+#### Defining variables of choice
+
+- A variable name can be a combination of alphanumeric and underscore
+- Can't start with a number
+- Are case sensitive
+- Special characters, such as *, -, +, ~, ., ^, and so on, are not used in variable names because they have a special meaning in shell
+
+```bash
+#! /bin/bash
+# Filename: variables.sh
+# Description: Using variables
+
+book="Learning Spark"
+book_description="Learning Spark in an easy way"
+book_number_pages=300
+
+echo "Learning Spark from book: $book"
+echo "Description book: $book_description"
+echo "Pages to be read: $book_number_pages"
+```
+
+Will result
+
+```bash
+Learning Spark from book: Learning Spark
+Description book: Learning Spark in an easy way
+Pages to be read: 300
+```
